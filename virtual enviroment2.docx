@@ -1,0 +1,13 @@
+step 1 : open terminal
+step 2 : install python version
+	code : sudo apt install python3.12-venv
+step 3 : create virtual environment 
+	 code : python3 -m venv [virtual_environment_name]
+step 4 : active the virtual environment
+	 code : source [virtual_environment_name]/bin/activate
+step 5 : install python libraries
+	 code : pip install [library_names]
+	 -show all libraries : pip list
+step 5 : switching environment
+	code : deactivate
+		then activate other virtual environment using step 3 code
