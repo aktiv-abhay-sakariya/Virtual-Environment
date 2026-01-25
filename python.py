@@ -239,5 +239,5 @@ class HospitalManagementSystem:
         print("Patient not found")
 
 
-# ------------------ RUN ------------------
-HospitalManagementSystem()
+if __name__ == "__main__":
+    KD = HospitalManagementSystem()
